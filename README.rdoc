@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ADDRESS BOOK -- authored by Justin Pacubas & Carolyn Huynh
+August 26, 2014
 
-Things you may want to cover:
+Requirements:
+* Ruby version 2.1.0
 
-* Ruby version
+This is a Ruby contact app made with rails and postgresql that allows the user to input a new contact, update and destroy it.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
