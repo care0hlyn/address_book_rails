@@ -19,4 +19,19 @@ class PhonesController < ApplicationController
     @phone.destroy
     render('phones/destroy.html.erb')
   end
+
+  def edit
+    @contact = Contact.find(params[:contact_id])
+    @phone = Phone.find(params[:phone_id])
+    render('phones/edit.html.erb')
+  end
+
+  def update
+    @phone = Phone.find(params[:phone_id])
+    if @phone.update(params[:phone])
+      render('phones/success.html.erb')
+    else
+      render('phones/edit.html.erb')
+    end
+  end
 end
